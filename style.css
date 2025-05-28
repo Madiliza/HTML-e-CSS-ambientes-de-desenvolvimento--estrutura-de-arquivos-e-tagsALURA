@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+    color: aliceblue;
+    height: 100vh;
+    box-sizing: border-box;
+    
+}
+
+.apresentacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10% 15%;
+}
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    
+    
+}
+
+.apresentacao__links__subtitulo{
+    font-family: "Krona One", serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.apresentacao__links__link{
+    color: #f6f6f6f6;
+    border: 2px solid #22D4FD;
+    width: 378px;
+    padding: 23.5px 0px;
+    border-radius: 8px;
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Montserrat", serif;
+
+}
+
+.titulo-destaque{
+    color: #22D4FD;
+}
+
+.aprensentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+
+.aprensentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family: "Krona One", serif;
+}
+
+.aprensentacao__conteudo__texto{
+    font-size: 24px;
+    font-family: "Montserrat", serif;
+}
+
+.rodape__div{
+    display: flex;
+    justify-content: center;
+    background-color: #22D4FD;
+    width: 1920px;
+    height: 80px;
+ 
+}
+
+.rodape__div__creditos{
+    display: flex;
+    font-size: 24px;
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    line-height: 36px;
+    padding: 20px;
+}
+
+.cabecalho__div{
+    background-color: black;
+
+}
+
+.cabecalho__div__ancora{
+    text-decoration: none;
+    color: #22D4FD;
+    font-family: "Montserrat", serif;
+    font-size: 24px;
+    line-height: 29.26px;
+    padding: 15px;
+    margin-top: 20px;
+
+}
